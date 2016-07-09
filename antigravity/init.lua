@@ -1,3 +1,4 @@
+-- register antigravity chat command
 minetest.register_chatcommand("antigravity", {
 	func = function(name, param)
 		local player = minetest.get_player_by_name(name)
