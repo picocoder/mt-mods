@@ -59,5 +59,6 @@ minetest.register_chatcommand("gravity 1", {
 		local player = minetest.get_player_by_name(name)
 		player:set_physics_override({
 			gravity = 0.01 -- set gravity to 1% of its original value
+        )}
 	end
-)}
+}
